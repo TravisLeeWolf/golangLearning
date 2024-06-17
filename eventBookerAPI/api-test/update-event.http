@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/3
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiZXhwIjoxNzE3MzQ2MTk3LCJ1c2VySWQiOjJ9.675hbp9DFyAgQnVbo_V9gYalCWkMIlLAUIGS6NWMdRA
+
+{
+    "name": "Test event (updated)",
+    "description": "Test of the event",
+    "location": "Somewhere on the Earth",
+    "dateTime": "2024-07-01T15:31:00Z"
+}

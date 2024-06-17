@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAbWFpbC5jb20iLCJleHAiOjE3MTc1MDk1NTYsInVzZXJJZCI6MX0.rvk7UjV1y38wdJIR3h2P-JpJW4mT8bYp9bWzsNb5mo8
+
+{
+    "name" : "A third test event",
+    "description": "A test of the event once again",
+    "location": "Somewhere else on Earth possibly",
+    "dateTime": "2024-07-02T15:40:00.000Z"
+}
